@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "question": "What is it?",
+      "answer": "Fotrino is a photo gallery, social sharing site, and photo management tool."
+    },
+    {
+      "question": "Can I login without authenticating via a social media site?",
+      "answer": "Fotrino is intentionally designed not to have a native registration and authentication system and instead relies on an Oauth 2 provider.  If you'd like to self host, you can set up an Ory Hydra server.  I've included a mock-server with the source code to help people get started quickly."
+    },
+    {
+      "question": "How can I nest albums?",
+      "answer": "You can't (yet)."
+    },
+    {
+      "question": "Can I edit photos?",
+      "answer": "Not yet.  I'm evaluating the best way to support this."
+    },
+    {
+      "question": "Are there any keyboard shortcuts?",
+      "answer": "Not yet and I realise this is really annoying."
+    },
+    {
+      "question": "Can I bulk import photos?",
+      "answer": "Not yet, but this is a really important feature to me. There are three supporting pieces of work for this:<ul><li>Document the API</li><li>Add the ability to generate an API token</li><li>Provide a bash script that will recursively scan a folder and re-create the folder structure as albums and upload photos</li></ul>All three items are planned."
+    },
+    {
+      "question": "I have similar photos, but they're not being found.",
+      "answer": "There are lots of ways to play around with the hashing algorithm. If you want, you can send me the photos for testing."
+    },
+    {
+      "question": "My thumbnails aren't loading.",
+      "answer": "Thumbnails are generated asynchronously and, depending on server load, might not be available right away. The frontend will attempt to reload the photo automatically."
+    },
+    {
+      "question": "What file types are supported?",
+      "answer": "Jpg/jpeg and some RAW formats.  Let me know if you have a request."
+    },
+    {
+      "question": "Does Fotrino work on mobile?",
+      "answer": "It should! Let me know if you have any issues."
+    }
+  ]
+}

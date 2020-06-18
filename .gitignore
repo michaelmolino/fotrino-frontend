@@ -1,0 +1,6 @@
+.DS_Store
+.thumbs.db
+node_modules
+.quasar
+dist/
+*.sh

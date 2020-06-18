@@ -1,0 +1,104 @@
+{
+  "title": "Technology Stack",
+  "data": [
+    {
+      "key": "Back End",
+      "value": [{ "name": "Python", "link": "https://www.python.org/" }]
+    },
+    {
+      "key": "Web Framework",
+      "value": [
+        {
+          "name": "Flask",
+          "link": "https://flask.palletsprojects.com/en/1.1.x/"
+        },
+        {
+          "name": "authlib",
+          "link": "https://github.com/lepture/authlib"
+        },
+        {
+          "name": "loginpass",
+          "link": "https://github.com/authlib/loginpass"
+        }
+      ]
+    },
+    {
+      "key": "Queues",
+      "value": [
+        { "name": "RQ", "link": "https://python-rq.org/" },
+        {
+          "name": "queue-promise",
+          "link": "https://www.npmjs.com/package/queue-promise"
+        }
+      ]
+    },
+    {
+      "key": "Photo Processing",
+      "value": [
+        { "name": "Pillow", "link": "https://python-pillow.org/" },
+        { "name": "RawPy", "link": "https://github.com/letmaik/rawpy" },
+        {
+          "name": "imagehash",
+          "link": "https://github.com/JohannesBuchner/imagehash/"
+        },
+        { "name": "exif-js", "link": "https://github.com/exif-js/exif-js" }
+      ]
+    },
+    {
+      "key": "HTTP Server",
+      "value": [
+        { "name": "Gunicorn", "link": "https://gunicorn.org/" },
+        { "name": "Nginx", "link": "https://nginx.org/" }
+      ]
+    },
+    {
+      "key": "Object Storage",
+      "value": [{ "name": "Minio", "link": "https://min.io/" }]
+    },
+    {
+      "key": "Database",
+      "value": [
+        { "name": "Postgres", "link": "https://www.postgresql.org/" },
+        { "name": "psycopg2", "link": "https://www.psycopg.org/" },
+        {
+          "name": "yoyo-migrations",
+          "link": "https://pypi.org/project/yoyo-migrations/"
+        }
+      ]
+    },
+    {
+      "key": "Caching",
+      "value": [{ "name": "Redis", "link": "https://redis.io/" }]
+    },
+    {
+      "key": "Front End Framework",
+      "value": [
+        { "name": "Vue.js", "link": "https://vuejs.org/" },
+        { "name": "Quasar", "link": "https://quasar.dev/" }
+      ]
+    },
+    {
+      "key": "Component Library",
+      "value": [
+        { "name": "Quasar", "link": "https://quasar.dev/" },
+        {
+          "name": "lightgallery.js",
+          "link": "https://sachinchoolur.github.io/lightgallery.js/"
+        }
+      ]
+    },
+    {
+      "key": "Hashing",
+      "value": [
+        {
+          "name": "js-spark-md5",
+          "link": "https://github.com/satazor/js-spark-md5"
+        }
+      ]
+    },
+    {
+      "key": "Packaging",
+      "value": [{ "name": "Docker", "link": "https://www.docker.com/" }]
+    }
+  ]
+}

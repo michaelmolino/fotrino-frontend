@@ -1,0 +1,64 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.fotrino-tn-wrapper {
+  height: 230px !important;
+  width: 200px !important;
+}
+
+.fotrino-tn-dark {
+  background: #121212 !important;
+}
+
+.fotrino-tn {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.rejected {
+  filter: brightness(37.5%);
+}
+
+.alwaysontop {
+  z-index: 9502 !important;
+}
+
+.fotrino-dialog {
+  width: 500px;
+}
+
+$bg: $accent;
+$hover: darken($bg, 10%);
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.fotrino,
+a.fotrino > span {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: bold;
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    transition: transform 0.5s ease;
+  }
+
+  &:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: $hover;
+    transform: scaleX(0);
+  }
+  &:hover:before {
+    transform: scaleX(1);
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "About",
+  "data": [
+    {
+      "key": "Main Developer",
+      "value": [
+        {
+          "name": "Michael Molino",
+          "link": "mailto:creative@michaelmolino.com"
+        }
+      ]
+    },
+    {
+      "key": "License",
+      "value": [
+        {
+          "name": "GPL 3.0",
+          "link": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+        }
+      ]
+    },
+    {
+      "key": "Type",
+      "value": [{ "name": "Photo Management" }]
+    },
+    { "key": "Status", "value": [{ "name": "Active Development" }] },
+    {
+      "key": "Source Code",
+      "value": [
+        {
+          "name": "Backend",
+          "link": "https://github.com/michaelmolino/fotrino-backend"
+        },
+        {
+          "name": "Frontend",
+          "link": "https://github.com/michaelmolino/fotrino-frontend"
+        }
+      ]
+    },
+    {
+      "key": "Schema (out of date)",
+      "value": [
+        {
+          "name": "QuickDBD",
+          "link": "https://app.quickdatabasediagrams.com/#/d/Qim983"
+        }
+      ]
+    },
+    {
+      "key": "API Docs (out of date)",
+      "value": [
+        {
+          "name": "SwaggerHub",
+          "link": "https://app.swaggerhub.com/apis/michaelmolino/fotrino/1.0.0-oas3"
+        }
+      ]
+    }
+  ]
+}
