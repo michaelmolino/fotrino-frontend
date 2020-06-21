@@ -98,7 +98,10 @@
     },
     {
       "key": "Packaging",
-      "value": [{ "name": "Docker", "link": "https://www.docker.com/" }]
+      "value": [
+        { "name": "Docker", "link": "https://www.docker.com/" },
+        { "name": "Docker Compose", "link": "https://docs.docker.com/compose/" }
+      ]
     }
   ]
 }

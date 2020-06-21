@@ -28,12 +28,16 @@
       "key": "Source Code",
       "value": [
         {
+          "name": "Frontend",
+          "link": "https://github.com/michaelmolino/fotrino-frontend"
+        },
+        {
           "name": "Backend",
           "link": "https://github.com/michaelmolino/fotrino-backend"
         },
         {
-          "name": "Frontend",
-          "link": "https://github.com/michaelmolino/fotrino-frontend"
+          "name": "Self Hosting",
+          "link": "https://github.com/michaelmolino/fotrino-selfhost"
         }
       ]
     },
