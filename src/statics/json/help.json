@@ -6,7 +6,7 @@
     },
     {
       "question": "Can I login without authenticating via a social media site?",
-      "answer": "Fotrino is intentionally designed not to have a native registration and authentication system and instead relies on an Oauth 2 provider.  If you'd like to self host, you can set up an Ory Hydra server.  I've included a mock-server with the source code to help people get started quickly."
+      "answer": "Fotrino is intentionally designed not to have a native registration and authentication system and instead relies on an Oauth 2 provider.  If you'd like to self host, you can set up an Ory Hydra server.  If you want to get up and running quickly, I have a mock oauth service available."
     },
     {
       "question": "How can I nest albums?",
@@ -26,7 +26,7 @@
     },
     {
       "question": "I have similar photos, but they're not being found.",
-      "answer": "There are lots of ways to play around with the hashing algorithm. If you want, you can send me the photos for testing."
+      "answer": "There are lots of ways to play around with the hashing algorithm. If you want, you can send me the photos for testing.  In my own experimentation I've found the algorithm works great for batches of photos shot close to each other but not so well for different crops of the same photo."
     },
     {
       "question": "My thumbnails aren't loading.",
