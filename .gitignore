@@ -2,5 +2,5 @@
 .thumbs.db
 node_modules
 .quasar
-dist/
+dist
 *.sh
