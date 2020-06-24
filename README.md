@@ -10,7 +10,7 @@ This project is actively being developed and is not yet ready for use. Until I r
 
 ## [Demo Site](https://www.fotrino.com/)
 
-![Chromium HSTS preload](https://img.shields.io/hsts/preload/fotrino.com?style=for-the-badge)
+[![Chromium HSTS preload](https://img.shields.io/hsts/preload/fotrino.com?style=for-the-badge)](https://hstspreload.org/?domain=fotrino.com)
 [![SSL Labs SSL Server Test](https://img.shields.io/badge/SSL%20LABS-A%2B-brightgreen?style=for-the-badge)](https://www.ssllabs.com/ssltest/analyze.html?d=fotrino.com)
 [![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/fotrino.com?publish&style=for-the-badge)](https://observatory.mozilla.org/analyze/fotrino.com)
 [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m784831310-cc936a200e25a76f2cb55b9d?style=for-the-badge)](https://stats.uptimerobot.com/wn3MlHLvwG)
@@ -19,14 +19,16 @@ Feel free to use this live demo as a playground where you can upload photos.  It
 
 ## Architecture
 
-![fotrino architecture](https://docs.google.com/drawings/d/e/2PACX-1vSGRI9GP1OKkTt1A0YWXzWCZVZ5ZhtwJ7JMlOvahc-qVFVe9IGzvGr6aiKd4aj5_dNCXZlY3RFW_A95/pub?w=1440&h=1080)
+![fotrino architecture](https://docs.google.com/drawings/d/e/2PACX-1vSGRI9GP1OKkTt1A0YWXzWCZVZ5ZhtwJ7JMlOvahc-qVFVe9IGzvGr6aiKd4aj5_dNCXZlY3RFW_A95/pub?w=800)
 
 ## [Frontend](https://github.com/michaelmolino/fotrino-frontend)
+[![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_fotrino-frontend?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_fotrino-frontend)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/michaelmolino/fotrino-frontend?style=for-the-badge)](https://libraries.io/github/michaelmolino/fotrino-frontend)
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-frontend?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-frontend)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-frontend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-frontend)
 
 ## [Backend](https://github.com/michaelmolino/fotrino-backend)
+[![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_fotrino-backend?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_fotrino-backend)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/michaelmolino/fotrino-backend?style=for-the-badge)](https://libraries.io/github/michaelmolino/fotrino-backend)
 #### Core
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-backend?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-backend)
