@@ -159,11 +159,9 @@ export default {
       set(albumId) {
         if (albumId) {
           this.$router.push({ path: '/gallery/' + albumId }).catch(() => {
-            true;
           });
         } else {
           this.$router.push({ path: '/gallery' }).catch(() => {
-            true;
           });
         }
       }

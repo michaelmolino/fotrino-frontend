@@ -7,7 +7,7 @@
       wrap-cells
     >
       <thead>
-        <th colspan="2">
+        <th colspan="2" scope="colgroup">
           <h5 class="q-my-none">{{ section.title }}</h5>
         </th>
       </thead>

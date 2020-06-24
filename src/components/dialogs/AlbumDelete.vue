@@ -63,7 +63,6 @@ export default {
           this.reset();
           this.$store.dispatch('gallery/fetchAlbums').then(() => {
             this.$router.push({ path: '/gallery' }).catch(() => {
-              true;
             });
           });
           this.$store.dispatch('gallery/setPhotoSelection', []);

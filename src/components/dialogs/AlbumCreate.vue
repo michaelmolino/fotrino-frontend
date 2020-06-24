@@ -86,7 +86,6 @@ export default {
             this.$router
               .push({ path: '/gallery/' + response.data.id })
               .catch(() => {
-                true;
               });
           });
           this.albumCreateDialog = false;

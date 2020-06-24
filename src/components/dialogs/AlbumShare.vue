@@ -18,10 +18,10 @@
         <div class="text-center">
           <div v-if="!shared">
             This album is currently private. If you share it,
-            <b>
+            <strong>
               anyone with the link will be able to see your photos without
               signing in.
-            </b>
+            </strong>
             Only picked photos will be shared.
           </div>
           <div v-if="shared">
