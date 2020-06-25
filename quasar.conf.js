@@ -46,7 +46,7 @@ module.exports = configure(function(ctx) {
       //            (fastest compile time; minimum bundle size; most tedious)
       // * true   - Import everything from Quasar
       //            (not treeshaking Quasar; biggest bundle size; convenient)
-      all: 'auto',
+      importStrategy: 'auto',
 
       components: [],
       directives: [],
@@ -59,9 +59,6 @@ module.exports = configure(function(ctx) {
       plugins: ['Notify', 'Loading', 'LocalStorage']
     },
 
-    // https://quasar.dev/quasar-cli/cli-documentation/supporting-ie
-    supportIE: false,
-
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ts
     supportTS: {
       tsCheckerConfig: { eslint: true }
@@ -70,9 +67,7 @@ module.exports = configure(function(ctx) {
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: 'history', // available values: 'hash', 'history'
-      modern: true,
       distDir: 'dist',
-      preloadChunks: true,
 
       // rtl: false, // https://quasar.dev/options/rtl-support
       // preloadChunks: true,

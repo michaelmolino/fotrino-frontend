@@ -17,7 +17,7 @@
         <q-chip>
           <q-avatar>
             <q-img
-              :src="'/statics/oauth/' + profile.identity_provider + '.png'"
+              :src="'/oauth/' + profile.identity_provider + '.png'"
             />
           </q-avatar>
           {{ profile.name }}

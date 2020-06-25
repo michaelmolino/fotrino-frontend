@@ -79,7 +79,7 @@ export default {
   created() {
     this.$q.loading.show();
     this.$axios
-      .get('/statics/json/about.json')
+      .get('/json/about.json')
       .then(response => {
         this.about = response.data;
       })
@@ -93,7 +93,7 @@ export default {
         });
       });
     this.$axios
-      .get('/statics/json/techstack.json')
+      .get('/json/techstack.json')
       .then(response => {
         this.techstack = response.data;
       })

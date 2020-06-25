@@ -34,7 +34,7 @@ export default {
   created() {
     this.$q.loading.show();
     this.$axios
-      .get('/statics/json/help.json')
+      .get('/json/help.json')
       .then(response => {
         this.help = response.data;
         this.$q.loading.hide();

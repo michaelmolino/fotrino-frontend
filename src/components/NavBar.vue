@@ -56,7 +56,7 @@
               <q-chip class="bg-white text-black">
                 <q-avatar>
                   <q-img
-                    :src="'/statics/oauth/' + provider.toLowerCase() + '.png'"
+                    :src="'/oauth/' + provider.toLowerCase() + '.png'"
                   />
                 </q-avatar>
                 {{ provider }}
