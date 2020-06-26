@@ -15,25 +15,31 @@ This project is actively being developed and is not yet ready for use. Until I r
 [![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/fotrino.com?publish&style=for-the-badge)](https://observatory.mozilla.org/analyze/fotrino.com)
 [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m784831310-cc936a200e25a76f2cb55b9d?style=for-the-badge)](https://stats.uptimerobot.com/wn3MlHLvwG)
 
-Feel free to use this live demo as a playground where you can upload photos.  It is always the most up to date version of the code.  Note that I regularly delete the DB and photos so don't use it to actually store important photos!
+Feel free to use this live demo as a playground where you can upload photos. It is always the most up to date version of the code. Note that I regularly delete the DB and photos so don't use it to actually store important photos!
 
 ## Architecture
 
 ![fotrino architecture](https://docs.google.com/drawings/d/e/2PACX-1vSGRI9GP1OKkTt1A0YWXzWCZVZ5ZhtwJ7JMlOvahc-qVFVe9IGzvGr6aiKd4aj5_dNCXZlY3RFW_A95/pub?w=800)
 
 ## [Frontend](https://github.com/michaelmolino/fotrino-frontend)
+
 [![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_fotrino-frontend?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_fotrino-frontend)
-[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/michaelmolino/fotrino-frontend?style=for-the-badge)](https://libraries.io/github/michaelmolino/fotrino-frontend)
+[![Depfu](https://img.shields.io/depfu/michaelmolino/fotrino-frontend?style=for-the-badge)](https://depfu.com/github/michaelmolino/fotrino-frontend?project_id=13874)
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-frontend?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-frontend)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-frontend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-frontend)
 
 ## [Backend](https://github.com/michaelmolino/fotrino-backend)
+
 [![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_fotrino-backend?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_fotrino-backend)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/michaelmolino/fotrino-backend?style=for-the-badge)](https://libraries.io/github/michaelmolino/fotrino-backend)
+
 #### Core
+
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-backend?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-backend)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-backend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-backend)
+
 #### Worker
+
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-worker?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-worker)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-worker/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-worker)
 
@@ -83,7 +89,8 @@ docker-compose down
 
 #### Troubleshooting
 
-Your browser should complain that Fotrino cannot be trusted.  You should visit each of these domains and accept the certificate.
+Your browser should complain that Fotrino cannot be trusted. You should visit each of these domains and accept the certificate.
+
 - https://mock-oauth-server:4444 (a 404 is OK)
 - https://minio:9000
 - https://fotrino:4443
@@ -92,11 +99,12 @@ If you can't accept the certificate, try [this](https://medium.com/@dblazeski/ch
 
 #### Cleaning Up
 
-If you'd like to trash all of your photos and DB you can just delete the `./minio` and `./postgres` folders.  They will be recreated the next time you start the services.
+If you'd like to trash all of your photos and DB you can just delete the `./minio` and `./postgres` folders. They will be recreated the next time you start the services.
 
 #### Updating
 
-Updates are likely to **break your existing install**.  You should delete `./minio` and `./postgres` to avoid problems.
+Updates are likely to **break your existing install**. You should delete `./minio` and `./postgres` to avoid problems.
+
 ```bash
 # Pull the latest self-host to make sure you have the latest docker-compose.yml and settings
 git pull
@@ -106,4 +114,4 @@ docker-compose pull
 
 #### Dependencies
 
-Additionally, Fotrino needs a webserver, an S3 compatible bucket and an identity provider to run.  [Nginx](https://nginx.org/), [Minio](https://min.io/), and a [mock oauth server](https://github.com/michaelmolino/mock-oauth-server) are used in this example setup.  If you need to expose your instance you'll need a real identity provider.  [Ory Hydra](https://www.ory.sh/hydra/docs/) is supported, as well as Facebook, Github, Gmail, and Reddit.
+Additionally, Fotrino needs a webserver, an S3 compatible bucket and an identity provider to run. [Nginx](https://nginx.org/), [Minio](https://min.io/), and a [mock oauth server](https://github.com/michaelmolino/mock-oauth-server) are used in this example setup. If you need to expose your instance you'll need a real identity provider. [Ory Hydra](https://www.ory.sh/hydra/docs/) is supported, as well as Facebook, Github, Gmail, and Reddit.
