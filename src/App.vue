@@ -23,6 +23,19 @@ export default {
     this.$q.loading.show();
     this.$store.dispatch('account/fetchProfile').then(() => {
       if (this.$store.state.account.isLoggedIn) {
+        this.$axios.interceptors.request.use(config => {
+          const r = new RegExp('^(?:[a-z]+:)?//', 'i');
+          if (
+            !r.test(config.url) &&
+            ['post', 'put', 'delete'].includes(config.method)
+          ) {
+            config.headers[
+              'X-CSRFToken'
+            ] = this.$store.state.account.profile.csrf_token;
+          }
+          return config;
+        });
+
         this.$store.dispatch('gallery/fetchAlbums').then(() => {
           this.$q.loading.hide();
           if (this.$route.path == '/welcome' && this.isLoggedIn) {
