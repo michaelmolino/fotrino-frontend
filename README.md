@@ -31,7 +31,7 @@ Feel free to use this live demo as a playground where you can upload photos. It 
 ## [Backend](https://github.com/michaelmolino/fotrino-backend)
 
 [![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_fotrino-backend?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_fotrino-backend)
-[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/michaelmolino/fotrino-backend?style=for-the-badge)](https://libraries.io/github/michaelmolino/fotrino-backend)
+[![Requires.io](https://img.shields.io/requires/github/michaelmolino/fotrino-backend?style=for-the-badge)](https://requires.io/github/michaelmolino/fotrino-backend/requirements/?branch=master)
 
 #### Core
 
