@@ -14,7 +14,7 @@
     "core-js": "^3.0.0",
     "exif-js": "^2.3.0",
     "lightgallery.js": "https://github.com/michaelmolino/lightgallery.js.git",
-    "quasar": "^1.12.4",
+    "quasar": "^1.12.10",
     "queue-promise": "^2.1.0",
     "spark-md5": "^3.0.1",
     "typescript": "^3.9.6",
