@@ -1,10 +1,23 @@
 Privacy Policy
-Your privacy is important to us. It is Michael Molino's policy to respect your privacy regarding any information we may collect from you across our website, http://www.fotrino.com/, and other sites we own and operate.
-We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
-We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.
-We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
-Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
-You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.
-Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
-This policy is effective as of 14 May 2020.
-Privacy Policy created with GetTerms.
+
+1. We respect your privacy regarding any information we may collect from you.
+
+2. You own your photos and uou are responsible for all content you upload; you must only upload legal photos that you own the rights to.
+
+3. We protect your data within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.
+
+4. Fotrino depends on several cloud service providers; if they go down or lose your data there is nothing we can do about it.
+
+5. The Fotrino source code is publicly available; if you're worried about bugs you should review it.
+
+6. We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+
+7. Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+
+8. We may remove content, delete your account, or block you for any reason we deem suitable for instance as required by applicable laws.
+
+9. In addition to your photos (and all metadata/exifdata) we may also store your name, profile picture, and email address.
+
+10. If you want us to remove all content and close your account please email creative@michaelmolino.com.  Some information may remain in logs for up to 30 days.
+
+11. Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information.

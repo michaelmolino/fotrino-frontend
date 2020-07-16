@@ -25,8 +25,8 @@ Feel free to use this live demo as a playground where you can upload photos. It 
 
 [![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_fotrino-frontend?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_fotrino-frontend)
 [![Depfu](https://img.shields.io/depfu/michaelmolino/fotrino-frontend?style=for-the-badge)](https://depfu.com/github/michaelmolino/fotrino-frontend?project_id=13874)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-frontend?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-frontend)
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-frontend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-frontend)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-frontend?style=for-the-badge)](https://hub.docker.com/r/michaelmolino/fotrino-frontend)
+[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-frontend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/r/michaelmolino/fotrino-frontend)
 
 ## [Backend](https://github.com/michaelmolino/fotrino-backend)
 
@@ -35,13 +35,13 @@ Feel free to use this live demo as a playground where you can upload photos. It 
 
 #### Core
 
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-backend?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-backend)
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-backend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-backend)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-backend?style=for-the-badge)](https://hub.docker.com/r/michaelmolino/fotrino-backend)
+[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-backend/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/r/michaelmolino/fotrino-backend)
 
 #### Worker
 
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-worker?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-worker)
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-worker/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/fotrino-worker)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/fotrino-worker?style=for-the-badge)](https://hub.docker.com/r/michaelmolino/fotrino-worker)
+[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/fotrino-worker/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/r/michaelmolino/fotrino-worker)
 
 ## [Self Hosting](https://github.com/michaelmolino/fotrino-selfhost)
 
