@@ -2,7 +2,7 @@
   <div>
     <h2>Welcome to Fotrino</h2>
     <h4 class="q-my-none">The transparent photo host.</h4>
-    <h6>Read our <a href="/privacy.txt" class="fotrino">Privacy Policy</a>.</h6>
+    <h6>Read our <a href="/privacy" class="fotrino">Privacy Policy</a>.</h6>
   </div>
 </template>
 

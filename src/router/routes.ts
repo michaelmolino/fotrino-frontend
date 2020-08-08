@@ -30,6 +30,10 @@ const routes: RouteConfig[] = [
         component: () => import('pages/Help.vue')
       },
       {
+        path: 'privacy',
+        component: () => import('pages/Privacy.vue')
+      },
+      {
         path: '409',
         component: () => import('pages/errors/409.vue')
       },
