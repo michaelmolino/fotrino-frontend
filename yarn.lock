@@ -1026,29 +1026,15 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@^1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.9.3.tgz#dba0c398dd64709a1c0941d0e8dff4655abc8728"
-  integrity sha512-9PXvmdxdO1Sa33X3FJ27T4ZBw9DEDnZcyqeGneOMSl/hzNCeEQ8BKk6ycUV9sdib0uH1sPXWEJ9m8v2QFylyqA==
+"@quasar/extras@^1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.9.4.tgz#2978e45dc8cb2802172c6cddafe383b55cd46037"
+  integrity sha512-g0a39r4ejpTBsrygSfvc1gcZEhnGMl0Rj/xSH6kvmn42NtAwkKiORqFckhhHJ3ZsubE1c5F2jAFcpWAaaC/t8A==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@quasar/fastclick/-/fastclick-1.1.4.tgz#21ed3e9a4387dcb43022a08af4ef08a5f1abf159"
   integrity sha512-i9wbyV4iT+v4KhtHJynUFhH5LiEPvAEgSnwMqPN4hf/8uRe82nDl5qP5agrp2el1h0HzyBpbvHaW7NB0BPrtvA==
-
-"@quasar/quasar-app-extension-qmediaplayer@^1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-qmediaplayer/-/quasar-app-extension-qmediaplayer-1.0.27.tgz#79b260f4655a2139d47ea6c0993944404cbb295f"
-  integrity sha512-mKqTYJSRXvSNAnGWoa/Htm47q890dPGAU4je/w1V6yxFLVxFVZQKa4vGrbAEBu+zJd0zv3o/dLp16Y2uYSkEPw==
-  dependencies:
-    "@quasar/quasar-ui-qmediaplayer" "^1.0.27"
-
-"@quasar/quasar-ui-qmediaplayer@^1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@quasar/quasar-ui-qmediaplayer/-/quasar-ui-qmediaplayer-1.0.27.tgz#7facc0e29df130168cced5c107e7cbff7a822ca8"
-  integrity sha512-z2mNFqSHV/2vVpeBCf11AlKfMm0qwsucqZcxMx/QiwH10COfH+JPpP5c8sqeitoQINW61UGNZpS85LQFusGFCQ==
-  dependencies:
-    q-colorize-mixin "^1.0.6"
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -7224,11 +7210,6 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-q-colorize-mixin@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/q-colorize-mixin/-/q-colorize-mixin-1.0.6.tgz#7430062989a5d5d5e0ade4380942a41b2250f8f9"
-  integrity sha512-P7EtExeYuLX+imWGHU36nzUKjZPgzHkAjqXdtsOmbDtxys53mHydwcKB7hzkmnjZtfHSa0vg61Mu2u7kJCmX8Q==
 
 q@^1.1.2:
   version "1.5.1"
