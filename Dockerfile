@@ -1,4 +1,4 @@
-FROM node:14.12.0-alpine
+FROM node:15.6.0-alpine
 WORKDIR /www/fotrino/
 COPY ./ ./
 RUN apk --update add --no-cache --virtual .build-deps git
