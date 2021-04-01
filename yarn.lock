@@ -1026,10 +1026,10 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@^1.9.10":
-  version "1.9.10"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.9.10.tgz#e0d8f98a7234d8bd996a7afbdba9763d4e331788"
-  integrity sha512-pVM2lLiX2vHhibL4VUCjAfYhhYtQLDLYccq/ee6PdpyJ394lJQSkFnnGntcmpQk4QPcgIQ8GZSVpsUd1qgabaw==
+"@quasar/extras@^1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.10.1.tgz#ff771b9af3849d5b8726d4b6914a052e7e540ef0"
+  integrity sha512-gVcrUhdLGNeWXRhTfsaK4AeSKnj3zWQ6wtVlmrxmoNbHtaP/U33c4XgQUb3XglRn0UA0FVOa3avBsc2AVq3CYA==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
