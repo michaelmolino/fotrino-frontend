@@ -11,7 +11,7 @@
   "dependencies": {
     "@quasar/extras": "^1.9.10",
     "axios": "^0.21.0",
-    "core-js": "^3.0.0",
+    "core-js": "^3.14.0",
     "exif-js": "^2.3.0",
     "lightgallery.js": "https://github.com/michaelmolino/lightgallery.js.git",
     "quasar": "^1.14.3",
